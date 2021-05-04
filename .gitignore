@@ -9,6 +9,9 @@
 # Java class files
 *.class
 
+#Audio File
+raw/
+
 # Generated files
 bin/
 gen/
