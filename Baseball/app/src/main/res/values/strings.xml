@@ -2,4 +2,8 @@
     <string name="app_name">Baseball</string>
     <string name="togglecrowd">Toggle Crowd</string>
     <string name="togglecrowdbuttontext">Toggle\nCrowd</string>
+    <string name="schedulebuttontext">Schedule</string>
+    <string name="scoresbuttontext">Scores</string>
+    <string name="standingsbuttontext">Standings</string>
+    <string name="soundboardbuttontext">Sound\nboard</string>
 </resources>
