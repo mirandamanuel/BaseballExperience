@@ -6,4 +6,19 @@
     <string name="scoresbuttontext">Scores</string>
     <string name="standingsbuttontext">Standings</string>
     <string name="soundboardbuttontext">Sound\nboard</string>
+    <string name="let_s_go">Let\'s Go!</string>
+    <string name="itfdb">ITFDB</string>
+    <string name="i_love_it">I Love It!</string>
+    <string name="she_is_ngone">She is \nGone</string>
+    <string name="dinger">Dinger</string>
+    <string name="k">K</string>
+    <string name="la_chona">La Chona</string>
+    <string name="boom">Boom</string>
+    <string name="ocean">Ocean</string>
+    <string name="the_nimpossible">The \nImpossible</string>
+    <string name="charge">Charge</string>
+    <string name="our_year">Our Year</string>
+    <string name="buehler_s_nk">Buehler\'s \nK</string>
+    <string name="take_me_nout">Take Me \nOut</string>
+    <string name="giants_nsuck">Giants \nSuck</string>
 </resources>

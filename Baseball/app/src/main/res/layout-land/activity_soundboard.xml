@@ -11,7 +11,7 @@
         android:id="@+id/letsGoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="64dp"
         android:background="@drawable/audio_button_border"
         android:text="@string/let_s_go"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,11 +21,11 @@
         android:id="@+id/loveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/audio_button_border"
         android:text="@string/i_love_it"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/itsTimeButton"
-        android:background="@drawable/audio_button_border"/>
+        app:layout_constraintTop_toTopOf="@+id/itsTimeButton" />
 
     <Button
         android:id="@+id/goneButton"
@@ -40,7 +40,7 @@
         android:id="@+id/dingerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/audio_button_border"
         android:text="@string/dinger"
         app:layout_constraintEnd_toStartOf="@+id/kButton"
@@ -70,13 +70,13 @@
         android:id="@+id/chargeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/audio_button_border"
         android:text="@string/charge"
         app:layout_constraintEnd_toStartOf="@+id/boomButton"
-        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toEndOf="@+id/chonaButton"
-        app:layout_constraintTop_toBottomOf="@+id/dingerButton"
-        android:background="@drawable/audio_button_border"/>
+        app:layout_constraintTop_toBottomOf="@+id/dingerButton" />
 
     <Button
         android:id="@+id/boomButton"
@@ -100,12 +100,11 @@
         android:id="@+id/ourYearButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/audio_button_border"
         android:text="@string/our_year"
-        app:layout_constraintBottom_toTopOf="@+id/takeMeOutButton"
         app:layout_constraintEnd_toStartOf="@+id/impossibleButton"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toEndOf="@+id/oceanButton"
         app:layout_constraintTop_toBottomOf="@+id/chargeButton" />
 
@@ -131,13 +130,13 @@
         android:id="@+id/takeMeOutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginBottom="156dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/audio_button_border"
         android:text="@string/take_me_nout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/giantsButton"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toEndOf="@+id/chikaButton"
         app:layout_constraintTop_toBottomOf="@+id/ourYearButton" />
 
@@ -154,10 +153,10 @@
         android:id="@+id/itsTimeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/audio_button_border"
         android:text="@string/itfdb"
         app:layout_constraintEnd_toStartOf="@+id/loveButton"
         app:layout_constraintStart_toEndOf="@+id/letsGoButton"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/audio_button_border"/>
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
